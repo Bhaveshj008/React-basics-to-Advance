@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    const body = document.querySelector('body');
+    const formConfig = {
+        title: "Registration form",
+        fields: [
+            { type: "text", label: "name", placeholder: "Enter your name", required: true },
+            { type: "text", label: "address", placeholder: "Enter your address", required: true },
+            { type: "text", label: "phone", placeholder: "Enter your phone", required: true },
+            { type: "email", label: "email", placeholder: "Enter your email", required: true },
+            { type: "number", label: "rollNo", placeholder: "Enter your Roll No", required: true },
+        ],
+        submit: { label: "register", action: 'submit' }
+    }
+    function renderForm(config) {
+        const form = document.createElement('form');
+        const title = document.createElement('h2');
+        title.innerText = "Registration form";
+        form.appendChild(title);
+        config.fields.map(field => {
+            const label = document.createElement('label');
+            label.innerText = field.label;
+            const input = document.createElement('input');
+            input.type = field.type;
+            input.placeholder = field.placeholder;
+            input.required = field.required;
+
+            form.appendChild(label);
+            form.appendChild(input);
+        });
+        const submitButton = document.createElement('button');
+        submitButton.type = 'submit';
+        submitButton.innerText = config.submit.label;
+        form.appendChild(submitButton);
+
+        // Append the form to the document body
+        document.body.appendChild(form);
+    }
+
+    renderForm(formConfig);
+</script>
+
+</html>

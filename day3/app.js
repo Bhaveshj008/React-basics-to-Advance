@@ -15,7 +15,7 @@ const Heading =()=>{
             <h1>Functional component Rendered</h1>
             <p>this is a random text done by me </p>
             {/* {random()} */}
-            <Random/>
+            <Random>bhaveshsdbsdf nvjn jfhb</Random>
         </div>
     );
 };
