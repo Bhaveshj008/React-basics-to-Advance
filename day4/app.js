@@ -7,7 +7,7 @@ const Header =()=>{
         <>
             <div className="header">
             <nav>
-            <div className="logo"><img src={logo}/>Clients<span>Vioce</span></div>
+            <div className="logo"><img src={logo}/>Clients<span>Voice</span></div>
             <ul className="nav-links">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
