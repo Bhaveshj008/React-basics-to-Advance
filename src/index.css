@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: rgb(46, 46, 46);
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    font-size: large;
+    padding:  0 20px 0 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.navItems{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.navItems li{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+/* Container holding all restaurant cards */
+.restaurants {
+    display: grid; /* Use grid to manage layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Space between cards */
+    padding: 20px; /* Padding around the container */
+    justify-items: center; /* Center the cards */
+  }
+  
+  /* Individual card styling */
+  .card {
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Prevents content from overflowing card borders */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth animation for hover */
+    max-width: 300px; /* Maximum width for cards */
+    width: 100%; /* Responsive width */
+  }
+  
+  /* Card hover effect */
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+  }
+  
+  /* Image styling */
+  .restImg {
+    width: 100%; /* Full width image */
+    height: 180px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the card without distortion */
+    border-bottom: 1px solid #eee; /* Border between image and info */
+  }
+  
+  /* Restaurant info container */
+  .restInfo {
+    padding: 15px; /* Padding inside the card */
+  }
+  
+  /* Restaurant name/title */
+  .title {
+    font-size: 18px; /* Larger font for name */
+    font-weight: bold; /* Bold for emphasis */
+    margin-bottom: 8px; /* Space below title */
+    color: #333; /* Darker color for readability */
+  }
+  
+  /* Rating and SLA info */
+  .rating {
+    font-size: 14px; /* Slightly smaller font */
+    color: #888; /* Muted text color */
+    margin-bottom: 8px; /* Space between rating and next section */
+  }
+  
+  /* Cuisines section */
+  .cuisines {
+    font-size: 14px; /* Similar to rating */
+    color: #555; /* Medium text color */
+    margin-bottom: 8px; /* Space between cuisines and locality */
+  }
+  
+  /* Locality styling */
+  .loc {
+    font-size: 13px; /* Slightly smaller font */
+    color: #777; /* Muted text color */
+  }
+  /* Container holding all restaurant cards */
+.restaurants {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    gap: 20px; /* Space between cards */
+    padding: 20px; /* Padding around the container */
+    justify-content: center; /* Center the cards */
+  }
+  
+  /* Individual card styling */
+  .card {
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #ddd; /* Light border for the card */
+    width: 250px; /* Fixed width for each card */
+    overflow: hidden; /* Prevent content overflow */
+    text-align: center; /* Center text */
+    margin-bottom: 20px; /* Space at the bottom */
+  }
+  
+  /* Image styling */
+  .restImg {
+    width: 100%; /* Full width image */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the card without distortion */
+  }
+  
+  /* Restaurant info container */
+  .restInfo {
+    padding: 10px; /* Padding inside the card */
+  }
+  
+  /* Restaurant name/title */
+  .title {
+    font-size: 18px; /* Font size for name */
+    font-weight: bold; /* Bold for emphasis */
+    color: #333; /* Darker color */
+    margin-bottom: 8px; /* Space below title */
+  }
+  
+  /* Rating and SLA info */
+  .rating {
+    font-size: 14px; /* Font size for rating */
+    color: #888; /* Muted color */
+    margin-bottom: 8px; /* Space below */
+  }
+  
+  /* Cuisines section */
+  .cuisines {
+    font-size: 14px; /* Font size for cuisines */
+    color: #555; /* Medium color */
+    margin-bottom: 8px; /* Space below */
+  }
+  
+  /* Locality styling */
+  .locality {
+    font-size: 13px; /* Slightly smaller font */
+    color: #777; /* Muted color */
+  }
+    
+
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 500px; /* Adjust width as needed */
+  }
+  
+  .search input::placeholder {
+    color: #aaa; /* Placeholder color */
+  }
+  
+  .search button {
+    padding: 8px 12px;
+    background-color: #84e2e2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search button:hover {
+    background-color: #0056b3;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+  
+
+.shimmer{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.shimmer div{
+  background-color: #858f8f36;
+  height: 200px;
+  width: 20%;
+  margin: 20px;
+ }

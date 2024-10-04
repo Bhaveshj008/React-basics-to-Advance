@@ -1,0 +1,190 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-modern-container {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.about-hero-modern {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/542331706/photo/homemade-spicy-shrimp-tacos.jpg?s=1024x1024&w=is&k=20&c=_dCevrC38ZJVwnWWGUQ03kUotBFMfZM0ojfeMlnoefw=') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.about-hero-modern h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.about-hero-modern h1 span {
+    color: #ffffff;
+}
+
+.about-hero-modern p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-button-modern {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cta-button-modern:hover {
+    background-color: #ff7b7b;
+}
+
+/* Who We Are Section */
+.who-we-are-modern {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.who-we-are-modern h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff5252;
+}
+
+.who-we-are-modern p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #666;
+}
+
+/* Values Section */
+.values-modern {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.values-modern h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.values-cards-modern {
+    display: flex;
+    justify-content: space-around;
+}
+
+.value-card-modern {
+    background-color: #ff5252;
+    color: white;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.value-card-modern i {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.value-card-modern:hover {
+    transform: translateY(-10px);
+}
+
+/* Our Story Section */
+.story-modern {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.story-content-modern {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.story-modern h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff5252;
+}
+
+/* Team Section */
+.team-modern {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.team-modern h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.team-grid-modern {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-member-modern {
+    text-align: center;
+}
+
+.team-member-modern img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Call to Action Section */
+.cta-modern {
+    background-color: #ff5252;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.cta-modern h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-modern button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #ff5252;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cta-modern button:hover {
+    background-color: #ff7b7b;
+    color: white;
+}
